@@ -1,0 +1,39 @@
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    background-color: transparent;
+    color: lightgray;
+}
+
+.color-overlay {
+    background-color: lightgray;
+    min-height: 10vh;
+}
+body{
+  background-color: lightblue;
+}
+.singleCol {
+    max-width:7500vmax;
+
+}
+
+footer {
+    background-color: #3a3a3a;
+    
+}
+
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #dfdfdf;
+
+}
+
+@media (max-width: 760.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
